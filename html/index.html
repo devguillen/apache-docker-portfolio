@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Desenvolvedor Fullstack Senior com foco em experiências digitais">
+    <title>Portfolio | Guilherme</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    <nav class="navbar">
+        <div class="logo">Dev.Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="hero">
+            <div class="glass-card main-card">
+                <h1>Criando Experiências <span>Digitais Inesquecíveis</span></h1>
+                <p>Desenvolvedor Fullstack com expertise em criar soluções robustas, escaláveis e esteticamente perfeitas. Transformo ideias complexas em interfaces elegantes e código performático.</p>
+                <div class="action-buttons">
+                    <a href="#projects" class="btn primary">Ver Projetos</a>
+                    <a href="#contact" class="btn secondary">Entrar em Contato</a>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Meu Trabalho</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>Plataforma Financeira</h3>
+                        <p>Dashboard analítico construído com React, Node.js e PostgreSQL com visualização de dados em tempo real e arquitetura de microsserviços avançada.</p>
+                        <div class="tech-stack">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>E-commerce Enterprise</h3>
+                        <p>Plataforma de vendas globais altamente escalável com processamento de pagamentos integrado e gestão de estoque distribuída.</p>
+                        <div class="tech-stack">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <h3>Sistema de Gestão MEI</h3>
+                        <p>Aplicação completa para microempreendedores com interface premium e funcionalidades de fluxo de caixa, serviços e agendamentos.</p>
+                        <div class="tech-stack">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="glass-card contact-card">
+                <h2>Vamos Trabalhar Juntos?</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Seu Nome">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Seu E-mail">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder="Sua Mensagem" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary full-width">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div class="toast" id="toast">Mensagem enviada com sucesso!</div>
+    <script src="script.js"></script>
+</body>
+</html>
