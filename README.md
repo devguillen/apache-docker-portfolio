@@ -1,4 +1,4 @@
-# Portfolio Senior - Desafio Docker Apache
+# Portfolio - Desafio Docker Apache
 
 Este projeto demonstra a execução de uma aplicação de portfólio de alta qualidade rodando em um servidor Apache provido via Docker Compose. O layout emprega padrões modernos de UI/UX como Glassmorphism, animações fluidas e design responsivo, sem utilizar frameworks externos - 100% Vanilla HTML/CSS/JS.
 
